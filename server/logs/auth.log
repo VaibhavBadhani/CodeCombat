@@ -1,0 +1,277 @@
+2025-07-21 16:30:41 [INFO]: Logger initialized
+2025-07-21 16:30:41 [INFO]: Server started and running on port 8080
+2025-07-21 16:30:41 [INFO]: MongoDB connected successfully
+2025-07-21 16:32:34 [INFO]: Logger initialized
+2025-07-21 16:32:35 [INFO]: Server started and running on port 8080
+2025-07-21 16:32:35 [INFO]: MongoDB connected successfully
+2025-07-21 16:34:22 [INFO]: Logger initialized
+2025-07-21 16:34:22 [INFO]: CORS configured to allow origins: http://localhost:3000, http://127.0.0.1:3000
+2025-07-21 16:34:22 [INFO]: Server started and running on port 8080
+2025-07-21 16:34:22 [INFO]: MongoDB connected successfully
+2025-07-21 16:36:47 [INFO]: Logger initialized
+2025-07-21 16:36:47 [INFO]: CORS configured to allow origins: http://localhost:3000, http://127.0.0.1:3000
+2025-07-21 16:36:47 [INFO]: Server running on port 8080
+2025-07-21 16:36:47 [INFO]: Server started and running on port 8080
+2025-07-21 16:36:47 [INFO]: MongoDB connected
+2025-07-21 16:36:47 [INFO]: MongoDB connected successfully
+2025-07-21 16:39:28 [INFO]: Logger initialized
+2025-07-21 16:39:28 [INFO]: CORS configured to allow origins: http://localhost:3000, http://127.0.0.1:3000
+2025-07-21 16:39:28 [INFO]: Server running on port 8080
+2025-07-21 16:39:28 [INFO]: Server started and running on port 8080
+2025-07-21 16:39:28 [INFO]: MongoDB connected
+2025-07-21 16:39:28 [INFO]: MongoDB connected successfully
+2025-07-21 16:39:47 [INFO]: POST /auth/signup - ::1
+2025-07-21 16:39:47 [INFO]: Auth request: POST /auth/signup
+2025-07-21 16:39:47 [INFO]: Request body: {"username":"testuser","email":"test@example.com","password":"password123"}
+2025-07-21 16:39:47 [INFO]: Signup request received: {"username":"testuser","email":"test@example.com","password":"password123"}
+2025-07-21 16:39:47 [INFO]: Signup attempt for email: test@example.com
+2025-07-21 16:39:47 [INFO]: Attempting to save user: testuser (test@example.com)
+2025-07-21 16:39:47 [INFO]: User created successfully: testuser (test@example.com)
+2025-07-21 16:39:47 [INFO]: JWT token created for user: testuser
+2025-07-21 16:40:18 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:18 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:18 [INFO]: Request body: {"email":"vaibhav.badhani-ext@infra.market","password":"1234"}
+2025-07-21 16:40:18 [INFO]: Login attempt for email: vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:18 [WARN]: Login failed: No user found with email vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:19 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:19 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:19 [INFO]: Request body: {"email":"vaibhav.badhani-ext@infra.market","password":"1234"}
+2025-07-21 16:40:19 [INFO]: Login attempt for email: vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:19 [WARN]: Login failed: No user found with email vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:20 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:20 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:20 [INFO]: Request body: {"email":"vaibhav.badhani-ext@infra.market","password":"1234"}
+2025-07-21 16:40:20 [INFO]: Login attempt for email: vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:20 [WARN]: Login failed: No user found with email vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:24 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:24 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:24 [INFO]: Request body: {"email":"vaibhav.badhani-ext@infra.market","password":"1122"}
+2025-07-21 16:40:24 [INFO]: Login attempt for email: vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:24 [WARN]: Login failed: No user found with email vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:25 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:25 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:25 [INFO]: Request body: {"email":"vaibhav.badhani-ext@infra.market","password":"1122"}
+2025-07-21 16:40:25 [INFO]: Login attempt for email: vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:25 [WARN]: Login failed: No user found with email vaibhav.badhani-ext@infra.market
+2025-07-21 16:40:44 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:44 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:44 [INFO]: Request body: {"email":"demo@example.com","password":"1234"}
+2025-07-21 16:40:44 [INFO]: Login attempt for email: demo@example.com
+2025-07-21 16:40:44 [WARN]: Login failed: No user found with email demo@example.com
+2025-07-21 16:40:45 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:45 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:45 [INFO]: Request body: {"email":"demo@example.com","password":"1234"}
+2025-07-21 16:40:45 [INFO]: Login attempt for email: demo@example.com
+2025-07-21 16:40:45 [WARN]: Login failed: No user found with email demo@example.com
+2025-07-21 16:40:46 [INFO]: POST /auth/login - ::1
+2025-07-21 16:40:46 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:40:46 [INFO]: Request body: {"email":"demo@example.com","password":"1234"}
+2025-07-21 16:40:46 [INFO]: Login attempt for email: demo@example.com
+2025-07-21 16:40:46 [WARN]: Login failed: No user found with email demo@example.com
+2025-07-21 16:41:17 [INFO]: Logger initialized
+2025-07-21 16:41:17 [INFO]: CORS configured to allow origins: http://localhost:3000, http://127.0.0.1:3000
+2025-07-21 16:41:17 [INFO]: Server running on port 8080
+2025-07-21 16:41:17 [INFO]: Server started and running on port 8080
+2025-07-21 16:41:18 [INFO]: MongoDB connected
+2025-07-21 16:41:18 [INFO]: MongoDB connected successfully
+2025-07-21 16:41:33 [INFO]: POST /auth/signup - ::1
+2025-07-21 16:41:33 [INFO]: Auth request: POST /auth/signup
+2025-07-21 16:41:33 [INFO]: Request body: {"username":"testuser","email":"test@example.com","password":"password123"}
+2025-07-21 16:41:33 [INFO]: Signup request received: {"username":"testuser","email":"test@example.com","password":"password123"}
+2025-07-21 16:41:33 [INFO]: Signup attempt for email: test@example.com
+2025-07-21 16:41:33 [WARN]: Signup failed: User with email test@example.com already exists
+2025-07-21 16:42:12 [INFO]: POST /auth/login - ::1
+2025-07-21 16:42:12 [INFO]: Auth request: POST /auth/login
+2025-07-21 16:42:12 [INFO]: Request body: {"email":"test@example.com","password":"password123"}
+2025-07-21 16:42:12 [INFO]: Login attempt for email: test@example.com
+2025-07-21 16:42:12 [INFO]: User logged in successfully: testuser (test@example.com)
+2025-07-21 16:42:16 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:16 [INFO]: GET /user/ - ::1
+2025-07-21 16:42:16 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:16 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:18 [INFO]: GET /api/contest/all - ::1
+2025-07-21 16:42:20 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:20 [INFO]: GET /user/ - ::1
+2025-07-21 16:42:20 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:20 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:22 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:22 [INFO]: GET /user/ - ::1
+2025-07-21 16:42:22 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:22 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:23 [INFO]: GET /api/contest/all - ::1
+2025-07-21 16:42:24 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:24 [INFO]: GET /user/ - ::1
+2025-07-21 16:42:24 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:42:24 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 16:44:11 [INFO]: Logger initialized
+2025-07-21 16:44:11 [INFO]: CORS configured to allow origins: http://localhost:3000, http://127.0.0.1:3000
+2025-07-21 16:44:11 [INFO]: Server running on port 8080
+2025-07-21 16:44:11 [INFO]: Server started and running on port 8080
+2025-07-21 16:44:12 [INFO]: MongoDB connected
+2025-07-21 16:44:12 [INFO]: MongoDB connected successfully
+2025-07-21 17:20:01 [INFO]: POST /auth/login - ::1
+2025-07-21 17:20:01 [INFO]: Auth request: POST /auth/login
+2025-07-21 17:20:01 [INFO]: Request body: {"email":"test@example.com","password":"password@123"}
+2025-07-21 17:20:01 [INFO]: Login attempt for email: test@example.com
+2025-07-21 17:20:02 [WARN]: Login failed: Invalid password for user test@example.com
+2025-07-21 17:20:03 [INFO]: POST /auth/login - ::1
+2025-07-21 17:20:03 [INFO]: Auth request: POST /auth/login
+2025-07-21 17:20:03 [INFO]: Request body: {"email":"test@example.com","password":"password@123"}
+2025-07-21 17:20:03 [INFO]: Login attempt for email: test@example.com
+2025-07-21 17:20:04 [WARN]: Login failed: Invalid password for user test@example.com
+2025-07-21 17:20:25 [INFO]: POST /auth/login - ::1
+2025-07-21 17:20:25 [INFO]: Auth request: POST /auth/login
+2025-07-21 17:20:25 [INFO]: Request body: {"email":"test@example.com","password":"password123"}
+2025-07-21 17:20:25 [INFO]: Login attempt for email: test@example.com
+2025-07-21 17:20:25 [INFO]: User logged in successfully: testuser (test@example.com)
+2025-07-21 17:20:49 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:20:51 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:25:33 [INFO]: POST /auth/login - ::1
+2025-07-21 17:25:33 [INFO]: Auth request: POST /auth/login
+2025-07-21 17:25:33 [INFO]: Request body: {"email":"test@example.com","password":"password123"}
+2025-07-21 17:25:33 [INFO]: Login attempt for email: test@example.com
+2025-07-21 17:25:33 [INFO]: User logged in successfully: testuser (test@example.com)
+2025-07-21 17:27:21 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:27:22 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:27:27 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:27:28 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:27:30 [INFO]: GET /user/ - ::1
+2025-07-21 17:27:30 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 17:27:30 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 17:27:30 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 17:27:34 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:27:59 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:28:11 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:28:13 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:28:15 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:28:16 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:28:18 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:29:11 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:29:13 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:30:16 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:30:22 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:30:23 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:30:49 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:31:12 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:31:28 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:31:30 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:31:31 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:31:34 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:31:36 [INFO]: GET /api/contest/all - ::1
+2025-07-21 17:34:12 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:06:49 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:09:32 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:12:03 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:12:31 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:12:46 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:12:51 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:12:54 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:13:50 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:13:51 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:14:06 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:14:07 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:14:17 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:14:19 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:14:20 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:17:07 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:17:19 [INFO]: GET /user/ - ::1
+2025-07-21 18:17:19 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:17:22 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:17:22 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:18:51 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:18:54 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:19:00 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:19:47 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:19:47 [INFO]: GET /user/ - ::1
+2025-07-21 18:19:47 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:19:47 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:20:19 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:20:19 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:22:25 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:22:25 [INFO]: GET /user/ - ::1
+2025-07-21 18:22:25 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:22:25 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:22:29 [INFO]: GET /user/ - ::1
+2025-07-21 18:22:32 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:22:33 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:22:48 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:22:48 [INFO]: GET /user/ - ::1
+2025-07-21 18:22:48 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:22:48 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:23:53 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:23:56 [INFO]: GET /user/ - ::1
+2025-07-21 18:23:56 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:23:56 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:23:56 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:24:35 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:27:49 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:27:51 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:27:54 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:28:40 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:30:02 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:30:02 [INFO]: GET /user/ - ::1
+2025-07-21 18:30:02 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:30:02 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:45:47 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:45:47 [INFO]: GET /user/ - ::1
+2025-07-21 18:45:47 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:45:47 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:45:56 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:46:00 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:46:47 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:46:49 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:46:49 [INFO]: GET /user/ - ::1
+2025-07-21 18:46:49 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:46:49 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:47:07 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:47:10 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:47:15 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:47:17 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:47:24 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:47:44 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:47:46 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:48:08 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:48:12 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:48:12 [INFO]: GET /user/ - ::1
+2025-07-21 18:48:12 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:48:12 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:49:54 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:49:55 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:49:57 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:50:03 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:50:07 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:51:24 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:51:24 [INFO]: GET /user/ - ::1
+2025-07-21 18:51:24 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:51:24 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:51:31 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:52:42 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:53:52 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:54:28 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:54:30 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:54:31 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:55:45 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:55:47 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:55:53 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:57:46 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:57:46 [INFO]: GET /user/ - ::1
+2025-07-21 18:57:46 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:57:46 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:57:50 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:57:50 [INFO]: GET /user/ - ::1
+2025-07-21 18:57:50 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:57:50 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 18:59:19 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:59:20 [INFO]: GET /api/contest/all - ::1
+2025-07-21 18:59:22 [INFO]: GET /api/contest/all - ::1
+2025-07-21 19:00:05 [INFO]: PUT /api/user/profile - ::1
+2025-07-21 19:00:08 [INFO]: PUT /api/user/profile - ::1
+2025-07-21 19:01:10 [INFO]: PUT /api/user/profile - ::1
+2025-07-21 19:06:51 [INFO]: GET /api/contest/all - ::1
+2025-07-21 19:06:53 [INFO]: GET /api/contest/all - ::1
+2025-07-21 19:06:55 [INFO]: GET /api/contest/all - ::1
+2025-07-21 19:06:58 [INFO]: GET /api/contest/all - ::1
+2025-07-21 22:08:26 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 22:08:27 [INFO]: GET /user/ - ::1
+2025-07-21 22:08:27 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1
+2025-07-21 22:08:27 [INFO]: GET /user/687e1ffbc1bb5f29023b2667 - ::1

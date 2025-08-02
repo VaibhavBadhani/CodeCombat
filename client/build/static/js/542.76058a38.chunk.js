@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcodecombat=self.webpackChunkcodecombat||[]).push([[542],{7542:(e,r,s)=>{s.r(r),s.d(r,{DraggedTreeItemsIdentifier:()=>a,TreeViewsDnDService:()=>t});class t{constructor(){this._dragOperations=new Map}removeDragOperationTransfer(e){if(e&&this._dragOperations.has(e)){const r=this._dragOperations.get(e);return this._dragOperations.delete(e),r}}}class a{constructor(e){this.identifier=e}}}}]);
+//# sourceMappingURL=542.76058a38.chunk.js.map
